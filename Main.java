@@ -15,10 +15,10 @@ public class Main {
         //Se llama al metodo y se imprime
         System.out.println (doubleCalc.average ());
 
-        // esto debe fallar
-        //String [] strNums = { "1", "2", "3", "4", "5" };
-        //Calculator<String> strCalc = new Calculator<String> (strNums);
-        //System.out.println (strCalc.average ());
+        //esto debe fallar
+        String [] strNums = { "1", "2", "3", "4", "5" };
+        Calculator<String> strCalc = new Calculator<String> (strNums);
+        System.out.println (strCalc.average ());
     }
 
 }
